@@ -1,0 +1,10 @@
+Every Database IDE has separate libraries for connecting them to python, Since I'm using MySQL I've installed 
+"pymysql" for helping python talk to my database and "sqlalchemy" to help manage their connection.
+
+The create_engine() is a function from the SQLAlchemy library, and is used in "python_with_database.py" file is used for connecting the database with python adn the order of credentials mentioned wihtin it is very essential.
+
+After connecting database with python, then again pandas willbe used to manipulate data easily.
+
+Pandas common methods are the ones mentioned in "Pandas_notes".
+
+Just the method of connecting the file type, in this case is .sql ealier was .csv, is different but no matter the dataset's file type pandas ofcourse works same for all datasets.

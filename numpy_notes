@@ -1,0 +1,5 @@
+# Numpy is not that much popular but it is very essential python library.
+
+Not popular but important?
+
+Yes, because we use pandas and matplotlib for data processing and plotting respectively and they both work on top of numpy, as  numpy is a library that has limited scope and is just reffered to for all the numeric operations only and both pandas and matplotlib get their numeric operations done by using numpy at the backend.

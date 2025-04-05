@@ -1,0 +1,21 @@
+The path to the file that we are reading should either be complete or the file must exist in the same folder as ".py" 
+file.
+
+~ head() will provide first 5 rows of the dataset.
+~ tail() will provide last 5 rows of the dataset.
+    - we can also have desired number of rows of the dataset using head(n) and tail(n) , where n can be any number 
+~ shape tells how many rows and columns are within the dataset. Its output is in (rows, cols) format.
+    - shape is not a method so it can not have paranthesis, and it always returns a tuple.
+~ info() tells us about datatypes of each column
+~ describe() tells us about the statistical properties of the data, inclusing min, max, mean, mode, std and more.
+    - this only provide statistical properties of the columns having "int" datatype.
+    - to describe a single column at a time we use "obj['col_name'].describe()", obj is the object which the data 
+      returned by read_csv().
+    - to have a specific statistical property of a specific column we can use "obj['col_name'].mean()"
+    - to have the numerical plotted on a chart we use "value_counts().plot()" methods with "kind", "vert" and "figsize" as attributes within plot(), where kind attribute defines the type of graph such as box, pie, histogram etc, vert contains boolean value and it defines if the graph must also occupy the y-axis or not and figsize is a tuple of x and y coordinates representing the size of the chart.
+
+To have charts of the numerical data, it is neccesary to install one of the data visualization python libraries, i installed "matplotlib". This library needs to be imported as "matplotlib.pyplot" else the chart won't be shown plus show() also needs to be called to hev the chart window opened as the chart won't be displayed in vs code's teminal window.
+
+
+
+# need to study corelation and loc[] better
