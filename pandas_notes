@@ -1,17 +1,17 @@
 The path to the file that we are reading should either be complete or the file must exist in the same folder as ".py" 
 file.
 
-###head():
+# head():
     will provide first 5 rows of the dataset.
-###tail():
+# tail():
     will provide last 5 rows of the dataset.
     - we can also have desired number of rows of the dataset using head(n) and tail(n) , where n can be any number 
-###shape:
+# shape:
     tells how many rows and columns are within the dataset. Its output is in (rows, cols) format.
     - shape is not a method so it can not have paranthesis, and it always returns a tuple.
-###info():
+# info():
     tells us about datatypes of each column
-###describe():
+# describe():
     tells us about the statistical properties of the data, inclusing min, max, mean, mode, std and more.
     - this only provide statistical properties of the columns having "int" datatype.
     - to describe a single column at a time we use "obj['col_name'].describe()", obj is the object which the data 

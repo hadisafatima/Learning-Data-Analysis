@@ -3,3 +3,45 @@
 Not popular but important?
 
 Yes, because we use pandas and matplotlib for data processing and plotting respectively and they both work on top of numpy, as  numpy is a library that has limited scope and is just reffered to for all the numeric operations only and both pandas and matplotlib get their numeric operations done by using numpy at the backend.
+
+Python alone takes a lot memory space for storing just a single digit or character, but usually numbers as it a library for numeric operations, such as it requires 28 Bytes to store the digit 1 and larger numbers takes up even more Bytes.
+    Numpy on the other hand is memory friendly and takes much lesser space as compare to Simple Python plus it also provides us its mbuilt-in methods to choose the size of the for any number.
+    Besides Memory space, Numpy is also faster as compare to simple python.
+
+In Numpy, Boolean Arrays are an important topic and they are used for filtering the data.
+    These arrays use boolean values, where "True" represents that a particular value needs to be selected in the output and "False" represents that a particular value must not be selected in the output.
+    Such as:
+        import numpy as np
+        A = np.array[0, 1, 2, 3] 
+            let this be an example array/list
+        A >= 2 
+            this condition will check all the values of the array A and will return either True if condition    satisfies or False otherwise. So this condition's output will be "array[False, False, True, True]"
+        A[A >= 2]
+            if we write above mentioned condition this way then this will provide us only those elements of the array for which the value of the condition is "True". so the output for this is "[2,3]"
+
+    
+    Note: Above mentioned example follows the syntax of Numpy and not Python. Though both are same but the array initialization is different. Simple Python will not use np.array[...] but simply A = [...] 
+
+
+Numpy is extremely powerful it has built-in methods for dot and cross products of matrices/multi-dimensional arrays and it can also provide transpose of any matrix in an instant.
+
+# Some of the other important Numpy functions are:
+1. random()
+2. arange()
+3. reshape()
+4. linspace()
+5. zeros()
+6. ones()
+7. empty()
+8. identify()
+9. eye()
+
+
+
+
+# Need to pratice numpy along with basic pandas and python to learn it better.
+# Have to do the Numpy excercise module.
+
+
+# want to know:
+    Will the business goals of the organization will be told by them or is this the job of the Analyst to identify key areas in businesses require growth?
